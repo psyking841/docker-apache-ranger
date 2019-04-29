@@ -3,8 +3,7 @@ This image is derived from https://github.com/coheigea/testcases/tree/master/apa
 The only purpose of my image is to provide a base image for customization and not have to go through the long building process.
 This image will pre-build the Apache Ranger with all plugins in `**/opt/apache-ranger-${RANGER_VERSION}/target/**` folder.
 
-**Lite Version**
-The lite version of this image deletes downloaded dependencies so it is much smaller.
+DockerHub link for this image: [psyking841/apache-ranger](https://cloud.docker.com/u/psyking841/repository/docker/psyking841/apache-ranger)
 
 * Plugins List
 ```
