@@ -5,6 +5,8 @@ This image will pre-build the Apache Ranger with all plugins in `**/opt/apache-r
 
 DockerHub link for this image: [psyking841/apache-ranger](https://cloud.docker.com/u/psyking841/repository/docker/psyking841/apache-ranger)
 
+The `plugins` contains some jars built from this container.
+
 * Plugins List
 ```
 [INFO] Reactor Summary:
