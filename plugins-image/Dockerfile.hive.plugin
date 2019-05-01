@@ -1,0 +1,7 @@
+FROM psyking841/apache-ranger:1.2.0 as builder
+
+FROM alpine
+
+COPY --from=builder /opt/apache-ranger-1.2.0/target/ranger-1.2.0-hive-plugin.tar.gz /ranger-1.2.0-hive-plugin.tar.gz
+
+CMD ["ls /"]
